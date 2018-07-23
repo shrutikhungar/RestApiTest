@@ -24,6 +24,7 @@ public class RestClientGetTest extends Base{
 	
 	@BeforeMethod
 	public void setup() {
+		System.out.println("A");
 		baseObj=new Base();
 		restClientObj=new RestClientGet();
 		url=prop.getProperty("url");
